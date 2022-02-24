@@ -51,4 +51,3 @@ create table PedidoItemLog
 	CodigoStatusPedidoItem int not null,
 	DataMovimento datetime not null
 )
-
