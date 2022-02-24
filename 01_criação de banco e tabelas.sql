@@ -15,7 +15,6 @@ create table Cliente
 	Codigo int identity(1,1) primary key,
 	Nome varchar (200) not null,
 	TipoPessoa char(1) not null,
-	CodigoPedido int
 )
 
 create table Pedido
@@ -37,11 +36,7 @@ create table PedidoItem
 
 )
 
-create table Status
-(
-	Codigo int identity(1,1) primary key,
-	Descricao varchar (50) not null
-)
+
 
 Create table StatusPedidoItem
 (
@@ -56,7 +51,3 @@ create table PedidoItemLog
 	CodigoStatusPedidoItem int not null,
 	DataMovimento datetime not null
 )
-
-
-
-
